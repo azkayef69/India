@@ -10,4 +10,3 @@ for o in op:
 	  number=cc+str(pc)
 	  print(c,number,len(number))
 	  open('numbers-generated.txt' , 'a').write(f'{c}]     '+number+'\n')
-      time.sleep(0.1)
